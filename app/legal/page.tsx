@@ -1,0 +1,6 @@
+import GlassCard from "@/components/glass-card";
+import SectionHeader from "@/components/section-header";
+export const metadata = { title: "Legal | The Astryx Concord Saga", description: "Copyright and usage terms for the Astryx Concord website." };
+export default function LegalPage() {
+  return <main className="page-wrap"><SectionHeader eyebrow="Rights & Protection" title="Copyright and usage" text="Ownership and download usage language for the Astryx Concord site." /><div className="grid gap-6 lg:grid-cols-2"><GlassCard className="rounded-[2rem] p-8"><h3 className="text-2xl font-semibold">Copyright notice</h3><p className="mt-4 text-white/70 leading-8">© 2026 Rogue Gaming Network — The Astryx Concord Saga. All rights reserved. Unauthorized reproduction, distribution, reposting, resale, or adaptation of any text, artwork, chapter files, worldbuilding, characters, concepts, or downloadable materials from this website is prohibited.</p></GlassCard><GlassCard className="rounded-[2rem] p-8"><h3 className="text-2xl font-semibold">Download terms</h3><p className="mt-4 text-white/70 leading-8">Downloaded files are for personal reading and reference only. Files may not be redistributed, mirrored, reposted, uploaded elsewhere, sold, or repackaged without explicit written permission.</p></GlassCard></div></main>;
+}

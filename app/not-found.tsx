@@ -1,0 +1,3 @@
+import Link from "next/link";
+import GlassCard from "@/components/glass-card";
+export default function NotFound(){ return <main className="page-wrap"><GlassCard className="rounded-[2rem] p-10 text-center"><p className="text-sm uppercase tracking-[0.32em] text-slate-300/45">404</p><h1 className="mt-4 text-4xl font-semibold tracking-tight text-slate-50">Page not found</h1><p className="mx-auto mt-4 max-w-2xl leading-8 text-slate-200/65">This part of the Astryx Concord site hasn’t been created yet or the link is incorrect.</p><Link href="/" className="mt-8 inline-flex rounded-2xl border border-sky-100/15 bg-white px-5 py-3 text-sm font-medium text-slate-950">Return home</Link></GlassCard></main>; }

@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { color-scheme: dark; }
+html { scroll-behavior: smooth; }
+body { background: #050816; color: white; }
+.site-shell {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background:
+    linear-gradient(rgba(5, 8, 22, 0.72), rgba(5, 8, 22, 0.82)),
+    url("/images/backgrounds/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.page-wrap { max-width: 80rem; margin: 0 auto; padding: 4rem 1.5rem; }
+
+body {
+  background-image: url("/images/backgrounds/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}

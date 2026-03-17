@@ -1,0 +1,26 @@
+{
+  "books": [
+    {
+      "id": 101,
+      "slug": "future-book",
+      "title": "Future Book Title",
+      "arc": "Future Arc",
+      "category": "Saga Novel",
+      "status": "Planned",
+      "year": "2027",
+      "chapters": 20,
+      "coverImage": "/images/cover-placeholder.jpg",
+      "featured": false,
+      "downloadsEnabled": true,
+      "summary": "Example JSON entry showing how content can be structured later for automation."
+    }
+  ],
+  "downloads": [
+    {
+      "title": "Future Book \u2014 Chapter 1",
+      "format": "PDF",
+      "size": "2.4 MB",
+      "href": "/downloads/future-book-ch1.pdf"
+    }
+  ]
+}
