@@ -15,7 +15,7 @@ export default function SiteHeader() {
           </h1>
         </div>
 
-        <nav className="hidden gap-8 text-sm text-slate-200/70 md:flex">
+        <nav className="flex gap-8 text-sm text-slate-200/70">
           <Link href="/">Home</Link>
           <Link href="/collections">Collections</Link>
           <Link href="/downloads">Downloads</Link>
