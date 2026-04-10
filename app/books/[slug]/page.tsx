@@ -1,8 +1,7 @@
-export default function Page({ params }: { params: { slug: string } }) {
+export default function BookPage({ params }: any) {
   return (
-    <div style={{ padding: "40px", color: "white" }}>
-      <h1>Book Page</h1>
-      <p>You opened: {params.slug}</p>
+    <div>
+      <h1>{params.slug}</h1>
     </div>
   );
 }
