@@ -1,6 +1,15 @@
-export default function GlassCard({ children, className = "" }: { children: React.ReactNode; className?: string }) {
+type GlassCardProps = {
+  children: React.ReactNode;
+  className?: string;
+  onClick?: () => void;
+};
+
+export default function GlassCard({ children, className, onClick }: GlassCardProps) {
   return (
-    <div className={`border border-sky-200/10 bg-white/[0.04] backdrop-blur-md shadow-[0_10px_40px_rgba(2,8,23,0.35)] ${className}`}>
+    <div
+      onClick={onClick}
+      className={`relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl transition hover:scale-[1.02] hover:bg-white/10 ${className}`}
+    >
       {children}
     </div>
   );

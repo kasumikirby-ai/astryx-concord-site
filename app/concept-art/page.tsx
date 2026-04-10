@@ -1,3 +1,3 @@
 export default function Page() {
-  return <div>Book Page</div>;
+  return <div>concept-art</div>;
 }
